@@ -1,0 +1,2 @@
+
+4) In the Binary Search algorithm, it is suggested to calculate the mid as beg + (end - beg) / 2 instead of (beg + end) / 2 because  (start + end) might face overflow condition, while (end - start) does not face this overflow condition. Also (start+end) does not work in case of pointers.
